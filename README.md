@@ -1,13 +1,28 @@
-# React + TypeScript + Vite
+# kbcom-react
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+React/Typescript/Vite version of kevinboucher.com online résumé and sample website for Kevin Boucher UI/UX Engineer.
 
-Currently, two official plugins are available:
+## Prerequisites
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+You will need the following things properly installed on your computer.
 
-## Expanding the ESLint configuration
+* [Git](https://git-scm.com/)
+* [Node.js](https://nodejs.org/) (with yarn)
+* [Google Chrome](https://google.com/chrome/)
+
+## Installation
+
+* `git clone git@github.com:kboucher/kbcom-react.git` this repository
+* `cd kbcom-react`
+* `yarn`
+
+## Running / Development
+
+* `yarn dev`
+* Visit your app at [http://127.0.0.1:5174/](http://127.0.0.1:5174/).
+<!-- * Visit your tests at [http://localhost:4200/tests](http://localhost:4200/tests). -->
+
+<!-- ## Expanding the ESLint configuration
 
 If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
 
@@ -25,3 +40,4 @@ If you are developing a production application, we recommend updating the config
 - Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
 - Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
 - Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+-->
